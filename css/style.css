@@ -1,0 +1,69 @@
+#shop, #services, #about, #contact {
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+}
+
+/* top navbar text color */
+.modomine .nav-link {
+  color: #000000 !important;
+  font-weight: 800;
+}
+/* bottom navbar bg-color */
+.navbar-dark, .bg-dark {
+  background-color: #6a0dad !important;
+}
+
+/* btn-colors */
+.btn-primary {
+  background-color: #9f2eef !important;
+}
+
+.logo{
+	width: 130px;
+  height: 130px;
+  position: relative;
+  bottom: 47px;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-items: stretch;
+  align-items: center;
+  position: relative;
+  z-index: -10;
+  top: -56px;
+  background: linear-gradient(180deg, #ced4da, rgb(0 0 0 / 13%), #9f2eef), url(../images/pexels-mike-b-frontpurple.jpg) no-repeat center center / cover;
+    
+}
+
+
+.hero section {
+    margin-left: 150px;
+    background-color: black;
+    padding: 30px;
+    opacity: 0.8;
+    color: whitesmoke;
+    border-radius: 30px;
+    /* width: 300px; */
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: .75rem;
+}
+
+/*mobile design*/
+@media only screen and (max-width: 768px) {
+    .hero section {
+        margin-left: 30px;
+        padding: 10px;
+        width: 270px;
+    }
+}
